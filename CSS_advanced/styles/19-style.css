@@ -83,7 +83,7 @@ a:active {
 }
 
 .card-category {
-    color: color-primary;
+    color: var(--color-primary);
 }
 
 .section {
@@ -113,7 +113,7 @@ a:active {
 }
 
 .section-tagline {
-    color: color-primary;
+    color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 .ul.row {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 .col-1-3 {
