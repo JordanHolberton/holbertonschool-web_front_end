@@ -21,8 +21,8 @@
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -30,16 +30,28 @@ html {
 }
 
 body {
-    color: var(--text-color);
-    font-family: var(--font-family-base);
+    color: text-color;
+    font-family: var(--font-family-base); 
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
 }
 
 a {
-    color: var(--text-color);
+    color: #161616;
     text-decoration: none;
+}
+
+a:link {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -47,7 +59,7 @@ a {
 }
 
 .card-category {
-    color: var(--color-primary);
+    color: color-primary;
 }
 
 .section-header {
@@ -63,7 +75,7 @@ a {
 }
 
 .section-tagline {
-    color: var(--color-primary);
+    color: color-primary;
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
