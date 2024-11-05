@@ -183,9 +183,9 @@ a:active {
 
 .card-work .card-inner {
     position: absolute;
-    top: -0,1rem;
-    left: -0,1rem;
-    right: -0,1rem;
+    top: -0.1rem;
+    left: -0.1rem;
+    right: -0.1rem;
     z-index: 1;
 }
 
@@ -200,19 +200,19 @@ a:active {
     height: 100%;
     position: relative;
 }
-.card-work .cartd-title a {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work .cartd-title a::after {
+.card-work .card-title a::after {
+    content: "";    
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    content: "";
 }
 
 .section {
