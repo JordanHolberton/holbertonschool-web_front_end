@@ -174,7 +174,7 @@ a:active {
     overflow: hidden;
 }
 
-.card-workd .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -189,7 +189,7 @@ a:active {
     z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -200,15 +200,18 @@ a:active {
     height: 100%;
     position: relative;
 }
-.card-work a, .cartd-title a {
+.card-work .cartd-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work a::after, .cartd-title a::after {
+.card-work .cartd-title a::after {
     position: absolute;
-    position: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     content: "";
 }
 
