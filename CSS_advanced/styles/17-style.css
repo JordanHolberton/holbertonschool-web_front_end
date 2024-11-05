@@ -78,7 +78,7 @@ a:active {
     color: color-primary;
 }
 
-.section-padding {
+.section {
     padding: var(--section-padding);
 }
 
