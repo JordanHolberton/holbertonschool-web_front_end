@@ -215,6 +215,10 @@ a:active {
     left: 0;
 }
 
+.card-work:hover .card-title {
+    opacity: 1;
+}
+
 .section {
     padding: var(--section-padding);
 }
